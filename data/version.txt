@@ -10,7 +10,7 @@
   },
   {
     "id": 2661886,
-    "name": "Kingdom of Sweden",
+    "name": "Sweden",
     "country": "瑞典",
     "coord": {
       "lon": 15,
@@ -19,7 +19,7 @@
   },
   {
     "id": 660013,
-    "name": "Republic of Finland",
+    "name": "Finland",
     "country": "芬蘭",
     "coord": {
       "lon": 26,
@@ -28,7 +28,7 @@
   },
   {
     "id": 828987,
-    "name": "Province of Southern Finland",
+    "name": "Southern Finland",
     "country": "芬蘭",
     "coord": {
       "lon": 26,
@@ -37,7 +37,7 @@
   },
   {
     "id": 828989,
-    "name": "Province of Western Finland",
+    "name": "Western Finland",
     "country": "芬蘭",
     "coord": {
       "lon": 24,
@@ -73,7 +73,7 @@
   },
   {
     "id": 2750405,
-    "name": "Kingdom of the Netherlands",
+    "name": "Netherlands",
     "country": "荷蘭",
     "coord": {
       "lon": 5.75,
