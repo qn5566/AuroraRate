@@ -1,100 +1,872 @@
-{"version":"1","info":"現在有新版","url":"https://","notes":"是否前往App Store下載?","dollar":["TWD","SEK","EUR","ISK","NOK","ANG","GBP","DKK"],"loc_tw":["台灣","瑞典","芬蘭","冰島","挪威","荷蘭","英國","丹麥"],"loc_en":["Taiwan", "Sweden", "Finland", "Iceland", "Norway", "Netherlands", "United Kingdom", "Denmark"],"rate_1":["1","0.311300","0.0296915","4.03100","0.292427","0.0596073","0.0252111","0.221958"],"rate_2":["3.10833","1","0.0949043","13.0873","0.958448","0.185381","0.0800542","0.709064"],"rate_3":["32.7576","10.5375","1","137.902","10.0992","1.95311","0.843625","7.47218"],"rate_4":["0.237504","0.0764032","0.00725073","1","0.0732469","0.0141578","0.00611752","0.0541801"],"rate_5":["3.24221","1.04275","0.0989716","13.6501","1","0.193330","0.0834901","0.739607"],"rate_6":["16.7713","5.39417","0.511929","70.6004","5.17345","1","0.431911","3.82528"],"rate_7":["38.8343","12.4898","1.18519","163.445","11.9795","2.31512","1","8.85664"],"rate_8":["4.38463","1.41017","0.133829","18.4559","1.35263","0.261420","0.112907","1"],
-"weather":[{
-    "id": 1668284,
-    "name": "Taiwan",
-    "country": "台灣",
-    "coord": {
-      "lon": 121,
-      "lat": 24
-    }
-  },
-  {
-    "id": 2661886,
-    "name": "Sweden",
-    "country": "瑞典",
-    "coord": {
-      "lon": 15,
-      "lat": 62
-    }
-  },
-  {
-    "id": 660013,
-    "name": "Finland",
-    "country": "芬蘭",
-    "coord": {
-      "lon": 26,
-      "lat": 64
-    }
-  },
-  {
-    "id": 828987,
-    "name": "Southern Finland",
-    "country": "芬蘭",
-    "coord": {
-      "lon": 26,
-      "lat": 60.833328
-    }
-  },
-  {
-    "id": 828989,
-    "name": "Western Finland",
-    "country": "芬蘭",
-    "coord": {
-      "lon": 24,
-      "lat": 62
-    }
-  },
-  {
-    "id": 830685,
-    "name": "Mellersta Finland",
-    "country": "芬蘭",
-    "coord": {
-      "lon": 25.5,
-      "lat": 62.5
-    }
-  },
-  {
-    "id": 2629691,
-    "name": "Republic of Iceland",
-    "country": "冰島",
-    "coord": {
-      "lon": -18,
-      "lat": 65
-    }
-  },
-  {
-    "id": 3144096,
-    "name": "Kingdom of Norway",
-    "country": "挪威",
-    "coord": {
-      "lon": 10,
-      "lat": 62
-    }
-  },
-  {
-    "id": 2750405,
-    "name": "Netherlands",
-    "country": "荷蘭",
-    "coord": {
-      "lon": 5.75,
-      "lat": 52.5
-    }
-  },
 {
-    "id": 2635167,
-    "name": "United Kingdom",
-    "country": "英國",
-    "coord": {
-      "lon": -2.69531,
-      "lat": 54.758438
+  "dollar": [
+    "TWD",
+    "SEK",
+    "EUR",
+    "ISK",
+    "NOK",
+    "ANG",
+    "GBP",
+    "DKK"
+  ],
+  "info": "現在有新版",
+  "loc_en": [
+    "Taiwan",
+    "Sweden",
+    "Finland",
+    "Iceland",
+    "Norway",
+    "Netherlands",
+    "United Kingdom",
+    "Denmark"
+  ],
+  "loc_tw": [
+    "台灣",
+    "瑞典",
+    "芬蘭",
+    "冰島",
+    "挪威",
+    "荷蘭",
+    "英國",
+    "丹麥"
+  ],
+  "notes": "是否前往App Store下載?",
+  "rate_1": [
+    "1",
+    "0.311300",
+    "0.0296915",
+    "4.03100",
+    "0.292427",
+    "0.0596073",
+    "0.0252111",
+    "0.221958"
+  ],
+  "rate_2": [
+    "3.10833",
+    "1",
+    "0.0949043",
+    "13.0873",
+    "0.958448",
+    "0.185381",
+    "0.0800542",
+    "0.709064"
+  ],
+  "rate_3": [
+    "32.7576",
+    "10.5375",
+    "1",
+    "137.902",
+    "10.0992",
+    "1.95311",
+    "0.843625",
+    "7.47218"
+  ],
+  "rate_4": [
+    "0.237504",
+    "0.0764032",
+    "0.00725073",
+    "1",
+    "0.0732469",
+    "0.0141578",
+    "0.00611752",
+    "0.0541801"
+  ],
+  "rate_5": [
+    "3.24221",
+    "1.04275",
+    "0.0989716",
+    "13.6501",
+    "1",
+    "0.193330",
+    "0.0834901",
+    "0.739607"
+  ],
+  "rate_6": [
+    "16.7713",
+    "5.39417",
+    "0.511929",
+    "70.6004",
+    "5.17345",
+    "1",
+    "0.431911",
+    "3.82528"
+  ],
+  "rate_7": [
+    "38.8343",
+    "12.4898",
+    "1.18519",
+    "163.445",
+    "11.9795",
+    "2.31512",
+    "1",
+    "8.85664"
+  ],
+  "rate_8": [
+    "4.38463",
+    "1.41017",
+    "0.133829",
+    "18.4559",
+    "1.35263",
+    "0.261420",
+    "0.112907",
+    "1"
+  ],
+  "url": "https://",
+  "version": "1",
+  "weather": [
+    {
+      "id": 1668284,
+      "name": "Taiwan",
+      "country": "台灣",
+      "coord": {
+        "lon": 121,
+        "lat": 24
+      },
+      "city": [
+        {
+          "id": 1665148,
+          "name": "Taipei",
+          "country": "TW",
+          "coord": {
+            "lon": 121.581749,
+            "lat": 24.94702
+          }
+        },
+        {
+          "id": 1668399,
+          "name": "Taichung",
+          "country": "TW",
+          "coord": {
+            "lon": 120.683899,
+            "lat": 24.1469
+          }
+        },
+        {
+          "id": 1673820,
+          "name": "Kaohsiung",
+          "country": "TW",
+          "coord": {
+            "lon": 120.313332,
+            "lat": 22.616261
+          }
+        }
+      ]
+    },
+    {
+      "id": 2661886,
+      "name": "Sweden",
+      "country": "瑞典",
+      "coord": {
+        "lon": 15,
+        "lat": 62
+      },
+      "city": [
+        {
+          "id": 2673730,
+          "name": "Stockholm",
+          "country": "SE",
+          "coord": {
+            "lon": 18.064899,
+            "lat": 59.332581
+          }
+        },
+        {
+          "id": 2711533,
+          "name": "Göteborgs Kommun",
+          "country": "SE",
+          "coord": {
+            "lon": 11.91667,
+            "lat": 57.700001
+          }
+        },
+        {
+          "id": 2727664,
+          "name": "Abisko",
+          "country": "SE",
+          "coord": {
+            "lon": 18.82868,
+            "lat": 68.349136
+          }
+        },
+        {
+          "id": 2692965,
+          "name": "Malmö Kommun",
+          "country": "SE",
+          "coord": {
+            "lon": 13,
+            "lat": 55.583328
+          }
+        }
+      ]
+    },
+    {
+      "id": 660013,
+      "name": "Finland",
+      "country": "芬蘭",
+      "coord": {
+        "lon": 26,
+        "lat": 64
+      },
+      "city": [
+        {
+          "id": 658226,
+          "name": "Helsinki",
+          "country": "FI",
+          "coord": {
+            "lon": 24.93417,
+            "lat": 60.17556
+          }
+        },
+        {
+          "id": 638937,
+          "name": "Rovaniemi",
+          "country": "FI",
+          "coord": {
+            "lon": 25.700001,
+            "lat": 66.5
+          }
+        },
+        {
+          "id": 656659,
+          "name": "Inari",
+          "country": "FI",
+          "coord": {
+            "lon": 27,
+            "lat": 69
+          }
+        }
+      ]
+    },
+    {
+      "id": 2629691,
+      "name": "Republic of Iceland",
+      "country": "冰島",
+      "coord": {
+        "lon": -18,
+        "lat": 65
+      },
+      "city": [
+        {
+          "id": 2629691,
+          "name": "Republic of Iceland",
+          "country": "IS",
+          "coord": {
+            "lon": -18,
+            "lat": 65
+          }
+        },
+        {
+          "id": 3426183,
+          "name": "Suðurnes",
+          "country": "IS",
+          "coord": {
+            "lon": -22.25,
+            "lat": 63.916672
+          }
+        },
+        {
+          "id": 3415496,
+          "name": "Keflavik",
+          "country": "IS",
+          "coord": {
+            "lon": -22.56242,
+            "lat": 64.004921
+          }
+        },
+        {
+          "id": 3426182,
+          "name": "Höfuðborgarsvæði",
+          "country": "IS",
+          "coord": {
+            "lon": -21.66667,
+            "lat": 64.166672
+          }
+        },
+        {
+          "id": 6692263,
+          "name": "Reykjavik",
+          "country": "IS",
+          "coord": {
+            "lon": -21.85799,
+            "lat": 64.118401
+          }
+        },
+        {
+          "id": 3337404,
+          "name": "Norðurland Eystra",
+          "country": "IS",
+          "coord": {
+            "lon": -17,
+            "lat": 65.5
+          }
+        },
+        {
+          "id": 3415212,
+          "name": "Kopavogur",
+          "country": "IS",
+          "coord": {
+            "lon": -21.912979,
+            "lat": 64.112343
+          }
+        },
+        {
+          "id": 3426184,
+          "name": "Vesturland",
+          "country": "IS",
+          "coord": {
+            "lon": -21.83333,
+            "lat": 64.75
+          }
+        },
+        {
+          "id": 3418365,
+          "name": "Kelda",
+          "country": "IS",
+          "coord": {
+            "lon": -21.538601,
+            "lat": 64.619438
+          }
+        },
+        {
+          "id": 3413650,
+          "name": "Saurbær",
+          "country": "IS",
+          "coord": {
+            "lon": -21.626881,
+            "lat": 64.406097
+          }
+        },
+        {
+          "id": 3413829,
+          "name": "Reykjavik",
+          "country": "IS",
+          "coord": {
+            "lon": -21.895411,
+            "lat": 64.135483
+          }
+        },
+        {
+          "id": 2633274,
+          "name": "Akureyri",
+          "country": "IS",
+          "coord": {
+            "lon": -18.087799,
+            "lat": 65.683533
+          }
+        },
+        {
+          "id": 3337406,
+          "name": "Suðurland",
+          "country": "IS",
+          "coord": {
+            "lon": -19,
+            "lat": 64
+          }
+        },
+        {
+          "id": 3413604,
+          "name": "Selfoss",
+          "country": "IS",
+          "coord": {
+            "lon": -20.99712,
+            "lat": 63.933109
+          }
+        },
+        {
+          "id": 2629833,
+          "name": "Husavik",
+          "country": "IS",
+          "coord": {
+            "lon": -17.33885,
+            "lat": 66.044891
+          }
+        },
+        {
+          "id": 2627130,
+          "name": "Siglufjordur",
+          "country": "IS",
+          "coord": {
+            "lon": -18.905121,
+            "lat": 66.151337
+          }
+        },
+        {
+          "id": 3337403,
+          "name": "Norðurland Vestra",
+          "country": "IS",
+          "coord": {
+            "lon": -20,
+            "lat": 65.333328
+          }
+        },
+        {
+          "id": 2627309,
+          "name": "Saudarkrokur",
+          "country": "IS",
+          "coord": {
+            "lon": -19.639441,
+            "lat": 65.746109
+          }
+        },
+        {
+          "id": 3414079,
+          "name": "Ólafsvík",
+          "country": "IS",
+          "coord": {
+            "lon": -23.714239,
+            "lat": 64.894524
+          }
+        },
+        {
+          "id": 3337405,
+          "name": "Austurland",
+          "country": "IS",
+          "coord": {
+            "lon": -15,
+            "lat": 65
+          }
+        },
+        {
+          "id": 2632428,
+          "name": "Reyðarfjörður",
+          "country": "IS",
+          "coord": {
+            "lon": -14.21832,
+            "lat": 65.031639
+          }
+        },
+        {
+          "id": 2632287,
+          "name": "Dalvik",
+          "country": "IS",
+          "coord": {
+            "lon": -18.52861,
+            "lat": 65.970177
+          }
+        },
+        {
+          "id": 2625252,
+          "name": "Vík",
+          "country": "IS",
+          "coord": {
+            "lon": -19.00831,
+            "lat": 63.419701
+          }
+        },
+        {
+          "id": 3415720,
+          "name": "Hvolsvöllur",
+          "country": "IS",
+          "coord": {
+            "lon": -20.22434,
+            "lat": 63.753311
+          }
+        },
+        {
+          "id": 3412589,
+          "name": "Torlakshofn",
+          "country": "IS",
+          "coord": {
+            "lon": -21.378441,
+            "lat": 63.860931
+          }
+        },
+        {
+          "id": 2628020,
+          "name": "Neskaupstadur",
+          "country": "IS",
+          "coord": {
+            "lon": -13.67951,
+            "lat": 65.148819
+          }
+        },
+        {
+          "id": 3411954,
+          "name": "Ytri-Njarðvík",
+          "country": "IS",
+          "coord": {
+            "lon": -22.547319,
+            "lat": 63.989658
+          }
+        },
+        {
+          "id": 2629399,
+          "name": "Kaupangur",
+          "country": "IS",
+          "coord": {
+            "lon": -18.014799,
+            "lat": 65.641693
+          }
+        },
+        {
+          "id": 2625189,
+          "name": "Vopnafjörður",
+          "country": "IS",
+          "coord": {
+            "lon": -14.8252,
+            "lat": 65.755501
+          }
+        },
+        {
+          "id": 3414109,
+          "name": "Ofanleiti",
+          "country": "IS",
+          "coord": {
+            "lon": -20.294399,
+            "lat": 63.41972
+          }
+        },
+        {
+          "id": 2627642,
+          "name": "Raufarhöfn",
+          "country": "IS",
+          "coord": {
+            "lon": -15.9486,
+            "lat": 66.44265
+          }
+        },
+        {
+          "id": 2632811,
+          "name": "Bjarnanes",
+          "country": "IS",
+          "coord": {
+            "lon": -15.24182,
+            "lat": 64.315399
+          }
+        },
+        {
+          "id": 2628310,
+          "name": "Miðgarðar",
+          "country": "IS",
+          "coord": {
+            "lon": -17.95118,
+            "lat": 66.537712
+          }
+        },
+        {
+          "id": 6354943,
+          "name": "Egilsstadir",
+          "country": "IS",
+          "coord": {
+            "lon": -14.39484,
+            "lat": 65.265327
+          }
+        },
+        {
+          "id": 3416706,
+          "name": "Hafnarfjordur",
+          "country": "IS",
+          "coord": {
+            "lon": -21.93774,
+            "lat": 64.067101
+          }
+        },
+        {
+          "id": 2630299,
+          "name": "Hofn",
+          "country": "IS",
+          "coord": {
+            "lon": -15.2082,
+            "lat": 64.253868
+          }
+        },
+        {
+          "id": 3412093,
+          "name": "Vestmannaeyjar",
+          "country": "IS",
+          "coord": {
+            "lon": -20.27339,
+            "lat": 63.44273
+          }
+        },
+        {
+          "id": 3412888,
+          "name": "Stykkisholmur",
+          "country": "IS",
+          "coord": {
+            "lon": -22.72967,
+            "lat": 65.075729
+          }
+        },
+        {
+          "id": 3413727,
+          "name": "Sandgerdi",
+          "country": "IS",
+          "coord": {
+            "lon": -22.7066,
+            "lat": 64.036613
+          }
+        },
+        {
+          "id": 3414222,
+          "name": "Njardvik",
+          "country": "IS",
+          "coord": {
+            "lon": -22.5145,
+            "lat": 63.9809
+          }
+        },
+        {
+          "id": 3414979,
+          "name": "Seltjarnarnes",
+          "country": "IS",
+          "coord": {
+            "lon": -22,
+            "lat": 64.150002
+          }
+        },
+        {
+          "id": 3415021,
+          "name": "Mosfellsbaer",
+          "country": "IS",
+          "coord": {
+            "lon": -21.700001,
+            "lat": 64.166672
+          }
+        },
+        {
+          "id": 3415667,
+          "name": "Isafjoerdur",
+          "country": "IS",
+          "coord": {
+            "lon": -23.124001,
+            "lat": 66.075493
+          }
+        },
+        {
+          "id": 3415761,
+          "name": "Hveragerdi",
+          "country": "IS",
+          "coord": {
+            "lon": -21.18874,
+            "lat": 64.000572
+          }
+        },
+        {
+          "id": 3416888,
+          "name": "Grindavik",
+          "country": "IS",
+          "coord": {
+            "lon": -22.43375,
+            "lat": 63.8424
+          }
+        },
+        {
+          "id": 3417195,
+          "name": "Gardabar",
+          "country": "IS",
+          "coord": {
+            "lon": -21.922979,
+            "lat": 64.088654
+          }
+        },
+        {
+          "id": 3417972,
+          "name": "Alftanes",
+          "country": "IS",
+          "coord": {
+            "lon": -22.01667,
+            "lat": 64.099998
+          }
+        },
+        {
+          "id": 3418076,
+          "name": "Borgarnes",
+          "country": "IS",
+          "coord": {
+            "lon": -21.920641,
+            "lat": 64.538338
+          }
+        },
+        {
+          "id": 3418653,
+          "name": "Akranes",
+          "country": "IS",
+          "coord": {
+            "lon": -22.0749,
+            "lat": 64.321793
+          }
+        },
+        {
+          "id": 3416900,
+          "name": "Grímsstaðaholt",
+          "country": "IS",
+          "coord": {
+            "lon": -21.956779,
+            "lat": 64.138962
+          }
+        },
+        {
+          "id": 3415846,
+          "name": "Hvaleyri",
+          "country": "IS",
+          "coord": {
+            "lon": -21.98592,
+            "lat": 64.063164
+          }
+        }
+      ]
+    },
+    {
+      "id": 3144096,
+      "name": "Kingdom of Norway",
+      "country": "挪威",
+      "coord": {
+        "lon": 10,
+        "lat": 62
+      },
+      "city": [
+        {
+          "id": 6453366,
+          "name": "Oslo",
+          "country": "NO",
+          "coord": {
+            "lon": 10.73367,
+            "lat": 59.911831
+          }
+        },
+        {
+          "id": 3161733,
+          "name": "Bergen",
+          "country": "NO",
+          "coord": {
+            "lon": 5.328,
+            "lat": 60.391998
+          }
+        },
+        {
+          "id": 3133881,
+          "name": "Trondheim",
+          "country": "NO",
+          "coord": {
+            "lon": 10.39687,
+            "lat": 63.428108
+          }
+        },
+        {
+          "id": 6453323,
+          "name": "Bodø",
+          "country": "NO",
+          "coord": {
+            "lon": 14.38319,
+            "lat": 67.283249
+          }
+        },
+        {
+          "id": 6453321,
+          "name": "Narvik",
+          "country": "NO",
+          "coord": {
+            "lon": 17.42775,
+            "lat": 68.438957
+          }
+        },
+        {
+          "id": 6453316,
+          "name": "Tromsø",
+          "country": "NO",
+          "coord": {
+            "lon": 18.95702,
+            "lat": 69.649612
+          }
+        }
+      ]
+    },
+    {
+      "id": 2750405,
+      "name": "Netherlands",
+      "country": "荷蘭",
+      "coord": {
+        "lon": 5.75,
+        "lat": 52.5
+      },
+      "city": [
+        {
+          "id": 2759794,
+          "name": "Amsterdam",
+          "country": "NL",
+          "coord": {
+            "lon": 4.88969,
+            "lat": 52.374031
+          }
+        },
+        {
+          "id": 2747891,
+          "name": "Rotterdam",
+          "country": "NL",
+          "coord": {
+            "lon": 4.47917,
+            "lat": 51.922501
+          }
+        }
+      ]
+    },
+    {
+      "id": 2635167,
+      "name": "United Kingdom",
+      "country": "英國",
+      "coord": {
+        "lon": -2.69531,
+        "lat": 54.758438
+      },
+      "city": [
+        {
+          "id": 2643744,
+          "name": "City of London",
+          "country": "GB",
+          "coord": {
+            "lon": -0.08901,
+            "lat": 51.51334
+          }
+        },
+        {
+          "id": 2635167,
+          "name": "Northern Ireland",
+          "country": "GB",
+          "coord": {
+            "lon": -2.69531,
+            "lat": 54.758438
+          }
+        },
+        {
+          "id": 2650225,
+          "name": "Edinburgh",
+          "country": "GB",
+          "coord": {
+            "lon": -3.19648,
+            "lat": 55.952061
+          }
+        }
+      ]
+    },
+    {
+      "id": 2072945,
+      "name": "Denmark",
+      "country": "丹麥",
+      "coord": {
+        "lon": 117.35321,
+        "lat": -34.96067
+      },
+      "city": [
+        {
+          "id": 2618425,
+          "name": "Copenhagen",
+          "country": "DK",
+          "coord": {
+            "lon": 12.56553,
+            "lat": 55.675941
+          }
+        },
+        {
+          "id": 2624652,
+          "name": "Arhus",
+          "country": "DK",
+          "coord": {
+            "lon": 10.21076,
+            "lat": 56.156738
+          }
+        }
+      ]
     }
-  },
-  {
-    "id": 2072945,
-    "name": "Denmark",
-    "country": "丹麥",
-    "coord": {
-      "lon": 117.35321,
-      "lat": -34.96067
-    }
-  }]}
+  ]
+}
